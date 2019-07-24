@@ -1,0 +1,255 @@
+body
+{
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.headerOuter, footer
+{
+    background: repeating-linear-gradient(135deg, #dbdbdb, #dbdbdb 2px, #ebedf5 2px, #ebedf5 4px);  
+}
+
+.headerOuter
+{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 65px;
+}
+
+.headerInner
+{
+    width: 70%;
+    display: table;
+    table-layout: fixed;
+    margin: auto;
+    height: 60px;
+}
+
+.headerLogo
+{
+    width: 30%;
+    font-size: 2em;
+    display: table-cell;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    line-height: 60px;
+}
+
+.headerNav
+{
+    width: 70%;
+    display: table-cell;
+    text-align: right;
+    vertical-align: bottom;
+}
+
+.headerNav a
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    margin: 1px 1px 0px 1px;
+    font-weight: bold;
+    color: black;
+}
+
+.headerNav a:hover
+{
+    border: transparent solid;
+    border-width: 1px 1px 0px 1px;
+    border-image: linear-gradient(0deg, #ffffff 0px, #c3c3c3 5px);
+    border-image-slice: 1;
+    margin: 0px;
+    background: linear-gradient(180deg, #c3c3c3 0px, #ffffff 5px);
+}
+
+.headerBottom
+{
+    height: 5px;
+    background: linear-gradient(0deg, #ffffff, #c3c3c3);
+}
+
+.content
+{
+    margin-top: 65px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    width: 70%;
+    font-size: 0.9em;
+}
+
+.footerTop
+{
+    height: 5px;
+    background: linear-gradient(180deg, rgba(255,255,255,0), #c3c3c3);
+    position: fixed; 
+    bottom: 35px;
+    left: 0;
+    right: 0;
+}
+
+footer
+{
+    text-align: center;
+    line-height: 35px;
+    font-size: 0.8em;
+    height: 35px;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+/* Generic CSS */
+
+h1
+{
+    font-size: 2em;
+    margin-top: 0px;
+}
+
+h3
+{
+    font-size: 1.4em;
+    margin-top: 0px;
+}
+
+a
+{
+    color: black;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+hr
+{
+    border: 0px;
+    height: 2px;
+    background-color: #c3c3c3;
+    margin-top: 50px;
+}
+
+hr.hr25
+{
+    margin-top: 25px;
+}
+
+.anchor /* Thanks to Pixelflips.com */
+{
+    display: block;
+    height: 65px; /*same height as header*/
+    margin-top: -65px; /*same height as header*/
+    visibility: hidden;
+}
+
+.baseContainer
+{
+    border: 2px solid #c3c3c3;
+    display: block;
+    background-color: #ebedf5;
+}
+
+#colContainer {
+    width:100%;
+}
+
+#col1 {
+    float:left;
+    width:50%;
+}
+
+#col2 {
+    float:left;
+    width:50%;
+}
+
+#colClear
+{
+    clear: both;
+}
+
+.adBlock
+{
+    text-align: right;
+}
+
+textarea
+{
+    height: auto;
+}
+
+
+/* CUSTOM PAGE CSS */
+
+
+/* Root index.php */
+.spectroContainer
+{
+    height: 65px;
+    padding: 10px;
+}
+
+.spectroContainer:hover
+{
+    border-color: #303030;
+}
+
+.spectroImage
+{
+    float: left;
+    height: 65px;
+}
+
+.spectroName
+{
+    font-weight: bold;
+    font-size: 1.6em;
+    float: left;
+    padding-left: 30px;
+    line-height: 60px;
+    height: 65px;
+    color: #303030;
+}
+
+.spectroLogoContainer
+{
+    margin-bottom: 20px;
+    height: 65px;
+}
+
+.spectroLinks
+{
+    padding: 7px;
+    clear: both;
+    text-align: center;
+}
+
+.spectroScreenshot
+{
+    margin: 10px;
+    border: 2px solid #c3c3c3;
+}
+
+.spectroScreenshotContainer
+{
+    text-align: center;
+}
+
+.spectroFAQ
+{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
