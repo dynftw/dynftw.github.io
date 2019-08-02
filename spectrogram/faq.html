@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>dynftw - Logitech Spectrogram | FAQ</title>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/icon.png" />
+	<link rel="stylesheet" href="../css/main.css">
+	<link href='https://fonts.googleapis.com/css?family=Oswald|Open+Sans' rel='stylesheet' type='text/css'>
+	</head>
+<body>
+	<div class="headerOuter">
+		<div class="headerInner">
+			<div class="headerLogo">
+				dynftw	
+			</div>
+			<div class="headerNav">
+				<a href="../index.html">home</a>
+				<a href="index.html">spectrogram</a>
+			</div>
+		</div>
+		<div class="headerBottom">
+		</div>
+	</div>
+	<div class="content">
+		<div class="spectroLogoContainer">
+			<div class="spectroImage"><img src="../images/spectrogram_logo.png" alt="" height="65" width="128"></div><div class="spectroName">Logitech Spectrogram | FAQ</div>
+		</div>
+		<div class="spectroLinks baseContainer">
+			<a href="index.html">&larr; back to Spectrogram</a>
+		</div><br><br>
+		
+		While the title says "FAQ", the structure of this section is currently "Problems and Solutions", rather than "Questions and Answers".<br><br><br>
+		
+		<div class="spectroFAQ">When I start the spectrogram, I can see it running in the "Spectrogram Output" window but it doesn't change the lighting on my keyboard.</div>
+		Open Logitech Gaming Software and click on the "Settings" icon. Make sure the "Allow games to control illumination" checkbox is ticked.
+		<hr class="hr25">
+		
+		<div class="spectroFAQ">When I start the program, the "Start Spectrogram" button is grayed out and the status bar at the bottom says that it "Failed to connect to Logitech Gaming Software".</div>
+		This usually occurs when Logitech Gaming Software is not running. The spectrogram will NOT work without it.
+		Check Task Manager for "LCore.exe" (Logitech Gaming Framework) to see if it is running.
+		If LGS IS running but you are still getting either of these errors, you may need to reinstall the latest version of LGS.
+		<hr class="hr25">
+				
+		
+		<div class="spectroFAQ">Only the bottom row(s) of the keyboard are lighting up.<br>
+		OR<br>
+		The entire keyboard is staying lit up the whole time.</div>
+		This is caused by the spectrogram sensitivity being too low (only bottom row(s) light up) or being too high (whole keyboard stays lit up).
+		This can be fixed by adjusting the "Sensitivity Multiplier" in the Settings tab of the spectrogram program.
+		<hr class="hr25">
+		
+		
+		<div class="spectroFAQ">The program says that "LogitechLedEnginesWrapper.dll" is missing.<br>
+		OR<br>
+		The program says that "LogitechGArxControlEnginesWrapper.dll" is missing.</div>
+		This file should be in the same folder as "Logitech Spectrogram.exe". 
+		It is included in the ZIP file that you downloaded so if it is missing, redownload the spectrogram program.
+		If the DLL IS in the same folder but you are still getting this error, then you may be missing Microsoft Visual C++ Redistributable for 
+		Visual Studio 2012 Update 4 x64 (or x32). You can download it <a href="https://www.microsoft.com/en-us/download/details.aspx?id=30679" target="_blank">here</a>
+		<hr class="hr25">
+		
+		
+		<div class="spectroFAQ">The spectrogram program does not sync properly with the audio that is playing.</div>
+		Ensure that you are using the latest version of your audio drivers. Using old drivers is a possible cause of this problem.
+
+	</div>
+	<div class="footerTop"></div>
+	<footer>
+		© 2019 dynftw
+	</footer>
+</body>
+</html>

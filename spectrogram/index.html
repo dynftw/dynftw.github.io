@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>dynftw - Logitech Spectrogram</title>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/icon.png" />
+	<link rel="stylesheet" href="../css/main.css">
+	<link href='https://fonts.googleapis.com/css?family=Oswald|Open+Sans' rel='stylesheet' type='text/css'>
+	</head>
+<body>
+	<div class="headerOuter">
+		<div class="headerInner">
+			<div class="headerLogo">
+				dynftw	
+			</div>
+			<div class="headerNav">
+				<a href="../index.html">home</a>
+				<a href="">spectrogram</a>
+			</div>
+		</div>
+		<div class="headerBottom">
+		</div>
+	</div>
+	<div class="content">
+		<div class="spectroLogoContainer">
+			<div class="spectroImage"><img src="../images/spectrogram_logo.png" alt="" height="65" width="128"></div><div class="spectroName">Logitech Spectrogram</div>
+		</div>
+		<div class="spectroLinks baseContainer">
+			<a href="downloads.html">Downloads</a> | 
+			<a href="#description">Description</a> |
+			<a href="#devices">Supported Devices</a> |
+			<a href="#instructions">Instructions</a> |
+			<a href="#screenshots">Screenshots</a> |
+			<a href="faq.html">FAQ</a> |
+			<a href="changelog.html">Changelog</a> |
+			<a href="#credits">Credits</a>
+		</div><br><br>
+
+		<span class="anchor" id="description"></span>
+		<h3>Description</h3>
+			This program displays an audio spectrogram on Logitech RGB Keyboards based on the audio currently playing on your computer.
+			It also displays some basic lighting effects on Logitech RGB Mice and Headsets, with more effects planned.
+			The spectrogram can be controlled using the Windows program or by using the ARX App on an Android or iOS mobile or tablet device.
+			<br><br>
+			This program was the winner of Logitech's ARX Control Challenge.
+			<br><br>
+			Two demonstration videos are below:<br>
+			<iframe width="448" height="252" src="https://www.youtube.com/embed/JOTWDwl321A" frameborder="0" allowfullscreen></iframe>
+			<iframe width="448" height="252" src="https://www.youtube.com/embed/kaj8hjpg01U" frameborder="0" allowfullscreen></iframe>
+			<br><br>
+			For more videos, take a look at this <a href="https://www.youtube.com/playlist?list=PL0yKFXJizWED5ITCxIVKKA1nAVuno3tgZ" target="_blank">playlist of user videos</a> showing the Logitech Spectrogram program in action.<br>
+
+		<hr><span class="anchor" id="devices"></span>
+		<h3>Supported Devices</h3>
+			The spectrogram is compatible with the Logitech devices listed below.<br>
+			Please note that this list is not exhaustive - even if your Logitech
+			device is not listed here, it may be worthwhile to try the program anyway.
+			<br><br>
+			<div id="colContainer">
+				<div id="col1">
+					<b>Keyboards</b>
+					<ul>
+						<li>Logitech G910 Orion Spark</li>
+						<li>Logitech G810 Orion Spectrum</li>
+						<li>Logitech G410 Atlus Spectrum</li>
+						<li><i>Logitech G610 Orion Brown/Red*</i></li>
+						<li><i>Logitech G510/G510S*</i></li>
+						<li><i>Logitech G110*</i></li>
+						<li><i>Logitech G19/G19S*</i></li>
+						<li><i>Logitech G13*</i></li>
+					</ul>            
+				</div>
+				<div id="col2">
+					<b>Headsets</b>
+					<ul>
+						<li>Logitech G633 Artemis Spectrum</li>
+						<li>Logitech G933 Artemis Spectrum</li>
+					</ul>
+					<b>Mice</b>
+					<ul>
+						<li>Logitech G502 Proteus Spectrum</li>
+						<li>Logitech G303 Daedalus Apex</li>
+						<li><i>Logitech G600</i></li>
+						<li>Logitech G300/G300S*</li>
+					</ul></div>
+				<div id="colClear"></div>
+			</div>
+			Devices in italics have not been tested but should work due to the wide device support provided by the Logitech LED SDK.<br>
+			Devices with a star do not support some features required by the spectrogram (eg. per-key lighting, full RGB support) but should work to some degree.
+			<br>
+		
+		<hr><span class="anchor" id="instructions"></span>
+		<h3>Instructions</h3>
+			<ol>
+				<li>Ensure that you meet the following requirements:
+					<ul>
+						<li><a href="http://support.logitech.com/en-us/software/lgs" target="_blank">Logitech Gaming Software (LGS) Version 8.55 or later</a></li>
+						<li><a href="https://www.microsoft.com/en-us/download/details.aspx?id=49981" target="_blank">Microsoft .NET 4.5.2 or later</a></li>
+						<li><a href="https://www.microsoft.com/en-us/download/details.aspx?id=30679" target="_blank">Microsoft Visual C++ Redistributable 2012</a> (if using a 64-bit OS, install both 32-bit and 64-bit)</li>
+						<li>Windows Vista or later</li>
+						<li>If you are using Windows 10 N or KN, you will need the <a href="https://www.microsoft.com/en-us/download/details.aspx?id=49919" target="_blank">Media Feature Pack for N and KN</a></li>
+						<li>For other versions of Windows N or KN, you will need to download the Media Feature Pack for your version from Microsoft's website<br><br></li>
+					</ul>
+				</li>
+				<li>Ensure that the Logitech Gaming Software (LGS) is running in the background. The spectrogram will NOT work without it.</li>
+				<li>Extract everything from the zip file you downloaded, then run "Logitech Spectrogram.exe" and click "Start Spectrogram".</li>
+				<li>Adjust the spectrogram sensitivity (in the Settings tab) if the keyboard lighting is not responding as expected.</li>
+			</ol><br>
+			<ul>
+				<li>The program may take a while to start when it is run for the first time. Windows SmartScreen may also prompt you to allow the program to run.</li>
+				<li>The spectrogram does not use the G-Key (and Logitech logo) lights as the Logitech LED SDK does not provide a way to control those.</li>
+				<li>Your settings across the program (eg. selected colors) will be saved for next time.</li>
+				<li>If the spectrogram appears to be running slowly or lagging, consider closing the On-Screen Output Window, disabling mouse/headset effects and/or disabling the ARX Control App as this will improve performance.</li>
+				<li>Quadraphonic Speaker Configurations are currently not supported. If you do happen to have a setup like this, tell me via Youtube/Logitech forums and I'll add support for it.</li>
+				<li>Use this program at your own risk.
+			</ul>
+			
+		<hr><span class="anchor" id="screenshots"></span>
+		<h3>Screenshots</h3>
+			<div class="spectroScreenshotContainer">
+				ARX Control App<br>
+				<img class="spectroScreenshot" height="480" width="270" src="http://i.imgur.com/UjpjaHX.png"><img class="spectroScreenshot" height="480" width="270" src="http://i.imgur.com/AtQdIhw.png">
+				<img class="spectroScreenshot" height="270" width="480" src="http://i.imgur.com/VgsN7JY.png"><br><br>
+				Windows Program<br>
+				<img class="spectroScreenshot" height="331" width="399" src="http://i.imgur.com/PiVovWO.png"><img class="spectroScreenshot" height="331" width="399" src="http://i.imgur.com/xBHMPLN.png"><br><br>
+				<img class="spectroScreenshot" height="331" width="399" src="http://i.imgur.com/JE3xldC.png"><img class="spectroScreenshot" height="243" width="399" src="http://i.imgur.com/ANaIHsc.png"><br>
+			</div>
+			
+		<hr><span class="anchor" id="credits"></span>
+		<h3>Credits</h3>
+		<a href="https://github.com/filoe/cscore" target="_blank">CSCore Audio Library</a><br>
+		<a href="https://github.com/gmamaladze/globalmousekeyhook" target="_blank">MouseKeyHook Library</a><br>
+	</div>
+	<div class="footerTop"></div>
+	<footer>
+		© 2019 dynftw
+	</footer>
+</body>
+</html>
